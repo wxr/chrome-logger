@@ -1,0 +1,17 @@
+{
+  "name": "Chrome Logger",
+  "version": "1.0",
+  "description": "Chrome Logger",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "jquery-3.3.1.min.js",
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
+
